@@ -1,0 +1,26 @@
+Ranger_Oro:
+  name: Ranger Oro
+  title: The Man™
+  url: https://github.com/rangeroro
+  image_url: https://github.com/rangeroro.png
+  page: true
+  socials:
+    github: rangeroro
+
+Aemadeous:
+  name: Aemadeous
+  title: Lead Administrator
+  url: https://github.com/Aemadeous
+  image_url: https://github.com/Aemadeous.png
+  page: true
+  socials:
+    github: Aemadeous
+
+Ziurkiusss:
+  name: Ziurkius
+  title: Lead Developer
+  url: https://github.com/Ziurkiusss
+  image_url: https://github.com/Ziurkiusss.png
+  page: true
+  socials:
+    github: Ziurkiusss
