@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/EarthCube logo-favicon.png',
 
   // Set the production url of your site here
-  url: 'https://https://test-website-earthcube.vercel.app',
+  url: 'https://test-website-earthcube.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'RangerOro', // Usually your GitHub org/user name.
-  projectName: 'RangerOro.github.io', // Usually your repo name.
+  projectName: 'test-website-earthcube', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
