@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/EarthCube logo-favicon.png',
 
   // Set the production url of your site here
-  url: 'test-website-earthcube.vercel.app',
+  url: 'https://test-website-earthcube.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -94,13 +94,6 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-      metadata: [
-        { name: 'description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
-        { property: 'og:title', content: 'EarthCube' },
-        { property: 'og:description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
-        { property: 'og:image', content: 'https://rangeroro.github.io/pages/img/europemap.png' },
-        { property: 'og:url', content: 'https://www.earthcubemc.net/' }
-      ],
     }),
 };
 
