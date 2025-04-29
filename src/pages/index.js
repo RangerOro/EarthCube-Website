@@ -411,10 +411,10 @@ export default function EarthCubeMinecraftServer() {
               <div className={styles.serverInfoItem}>
                 <div className={styles.serverInfoLabel}>Bedrock Port:</div>
                 <div className={styles.serverInfoValue}>
-                  <code>25565</code>
+                  <code>19132</code>
                   <button 
                     className={styles.copyButton}
-                    onClick={() => copyToClipboard("25565")}
+                    onClick={() => copyToClipboard("19132")}
                     aria-label="Copy port number"
                   >
                     <svg viewBox="0 0 16 16" className={styles.copyIcon}>
