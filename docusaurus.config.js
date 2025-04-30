@@ -57,14 +57,6 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        metadata: [
-          { name: 'description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
-          { property: 'og:title', content: 'EarthCubeMC - Minecraft Earth Server' },
-          { property: 'og:description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
-          { property: 'og:image', content: 'https://test-website-earthcube-git-main-rangeroros-projects.vercel.app/img/europemap.png' },
-          { property: 'og:url', content: 'https://test-website-earthcube-git-main-rangeroros-projects.vercel.app/' },
-          { name: 'twitter:card', content: 'summary_large_image' }
-        ],
       }),
     ],
   ],
@@ -102,6 +94,14 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      metadata: [
+        { name: 'description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
+        { property: 'og:title', content: 'EarthCubeMC - Minecraft Earth Server' },
+        { property: 'og:description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
+        { property: 'og:image', content: 'https://test-website-earthcube-git-main-rangeroros-projects.vercel.app/img/europemap.png' },
+        { property: 'og:url', content: 'https://test-website-earthcube-git-main-rangeroros-projects.vercel.app/' },
+        { name: 'twitter:card', content: 'summary_large_image' }
+      ],
     }),
 };
 
