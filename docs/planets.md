@@ -17,7 +17,7 @@ A prerequisite is to have 10.000 gold in your personal bank account, as they wil
 
 1. Execute the `/rocket` command to obtain the Space Rocket, 10.000 gold will be cancelled from your account after doing this!
 2. Hold the Space Rocket in hand and right-click it
-3. You should see a planet selection UI Select the planet you want to land on
+3. You should see a planet selection UI. Select the planet you want to land on
 4. You will be RTPed to the selected world!
 
 You can also teleport in group with some friends! With one rocket only, you can use it in the same chunk with up to 3 people and the others will get prompted to run the command `/pl accept` in chat to teleport with you to the planet. You have 20 seconds to run the command, or else the request will expire.
