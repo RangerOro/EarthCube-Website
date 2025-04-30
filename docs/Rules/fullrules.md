@@ -1,6 +1,6 @@
 ---
 title: Full Rules
-sidebar_position: 2
+sidebar_position: 10
 slug: /rules
 ---
 

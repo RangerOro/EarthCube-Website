@@ -1,0 +1,292 @@
+---
+title: Custom Recipes
+sidebar_position: 12
+slug: /recipes
+---
+
+import CraftingGrid from '@site/src/components/CraftingGrid';
+
+<div className="crafting-row">
+    <div className="crafting-column">
+        <div className="crafting-label">Powered Rails</div>
+        <CraftingGrid
+            recipe={[
+                [
+                    { name: "Iron Ingot", image: "iron_ingot.webp" },
+                    null,
+                    { name: "Iron Ingot", image: "iron_ingot.webp" }
+                ],
+                [
+                    { name: "Iron Ingot", image: "iron_ingot.webp" },
+                    { name: "Stick", image: "stick.webp" },
+                    { name: "Iron Ingot", image: "iron_ingot.webp" }
+                ],
+                [
+                    { name: "Iron Ingot", image: "iron_ingot.webp" },
+                    { name: "Redstone Dust", image: "redstone_dust.webp" },
+                    { name: "Iron Ingot", image: "iron_ingot.webp" }
+                ]
+            ]}
+        />
+    </div>
+
+<div className="crafting-column">
+    <div className="crafting-label">Cobweb</div>
+    <CraftingGrid
+        recipe={[
+            [
+                { name: "String", image: "string.webp" },
+                { name: "String", image: "string.webp" },
+                { name: "String", image: "string.webp" }
+            ],
+            [
+                { name: "String", image: "string.webp" },
+                { name: "String", image: "string.webp" },
+                { name: "String", image: "string.webp" }
+            ],
+            [
+                { name: "String", image: "string.webp" },
+                { name: "String", image: "string.webp" },
+                { name: "String", image: "string.webp" }
+            ]
+        ]}
+    />
+</div>
+
+<div className="crafting-column">
+    <div className="crafting-label">Ink Sac</div>
+    <CraftingGrid
+        recipe={[
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                { name: "Coal", image: "coal.webp" },
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ]}
+    />
+</div>
+<div className="crafting-column">
+    <div className="crafting-label">Glow Ink Sac</div>
+    <CraftingGrid
+        recipe={[
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                { name: "Ink Sac", image: "inksac.webp" },
+                { name: "Glowstone Dust", image: "glowstonedust.webp" }
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ]}
+    />
+</div>
+</div>
+
+<div className="crafting-row">
+  <div className="crafting-column">
+    <div className="crafting-label">Prismarine Shard</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          { name: "Sand", image: "sand.webp" },
+          { name: "Dirt", image: "dirt.webp" },
+          { name: "Lapis Lazuli", image: "lapislazuli.webp" }
+        ],
+        [null, null, null]
+      ]}
+    />
+  </div>
+
+  <div className="crafting-column">
+    <div className="crafting-label">Prismarine Crystal</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          null,
+          { name: "Prismarine Shard", image: "prismarineshard.webp" },
+          { name: "Glowstone Dust", image: "glowstonedust.webp" }
+        ],
+        [null, null, null]
+      ]}
+    />
+  </div>
+
+  <div className="crafting-column">
+    <div className="crafting-label">Coral Blocks</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          null,
+          { name: "Coral", image: "coral.webp" },
+          { name: "Coral", image: "coral.webp" }
+        ],
+        [
+          null,
+          { name: "Coral", image: "coral.webp" },
+          { name: "Coral", image: "coral.webp" }
+        ]
+      ]}
+    />
+  </div>
+
+  <div className="crafting-column">
+    <div className="crafting-label">End Stone</div>
+    <CraftingGrid
+      recipe={[
+        [
+          { name: "Sand", image: "sand.webp" },
+          { name: "Sand", image: "sand.webp" },
+          { name: "Sand", image: "sand.webp" }
+        ],
+        [
+          { name: "Sand", image: "sand.webp" },
+          { name: "Cobblestone", image: "cobblestone.webp" },
+          { name: "Sand", image: "sand.webp" }
+        ],
+        [
+          { name: "Sand", image: "sand.webp" },
+          { name: "Sand", image: "sand.webp" },
+          { name: "Sand", image: "sand.webp" }
+        ]
+      ]}
+    />
+  </div>
+</div>
+
+<div className="crafting-row">
+  <div className="crafting-column">
+    <div className="crafting-label">End Rod</div>
+    <CraftingGrid
+      recipe={[
+        [
+          { name: "Glowstone Dust", image: "glowstonedust.webp" },
+          { name: "White Stained Glass", image: "whiteglass.webp" },
+          { name: "Glowstone Dust", image: "glowstonedust.webp" }
+        ],
+        [
+          { name: "Glowstone Dust", image: "glowstonedust.webp" },
+          { name: "White Stained Glass", image: "whiteglass.webp" },
+          { name: "Glowstone Dust", image: "glowstonedust.webp" }
+        ],
+        [
+          { name: "Glowstone Dust", image: "glowstonedust.webp" },
+          { name: "White Stained Glass", image: "whiteglass.webp" },
+          { name: "Glowstone Dust", image: "glowstonedust.webp" }
+        ]
+      ]}
+    />
+  </div>
+
+  <div className="crafting-column">
+    <div className="crafting-label">Sculk</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          { name: "Blue Dye", image: "bluedye.webp" },
+          { name: "Deepslate", image: "deepslate.webp" },
+          null
+        ],
+        [
+          null,
+          { name: "Bottle O' Enchanting", image: "expbottle.webp" },
+          null
+        ]
+      ]}
+    />
+  </div>
+
+  <div className="crafting-column">
+    <div className="crafting-label">Echo Shard</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          null,
+          { name: "Amethyst Shard", image: "amethystshard.webp" },
+          { name: "Sculk", image: "sculk.gif" }
+        ],
+        [null, null, null]
+      ]}
+    />
+  </div>
+
+  <div className="crafting-column">
+    <div className="crafting-label">Sculk Sensor</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          { name: "Echo Shard", image: "echoshard.webp" },
+          { name: "Observer", image: "observer.webp" },
+          { name: "Echo Shard", image: "echoshard.webp" }
+        ],
+        [
+          { name: "Sculk", image: "sculk.gif" },
+          { name: "Sculk", image: "sculk.gif" },
+          { name: "Sculk", image: "sculk.gif" }
+        ]
+      ]}
+    />
+  </div>
+</div>
+
+<div className="crafting-row">
+  <div className="crafting-column">
+    <div className="crafting-label">Sculk Catalyst</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          { name: "Echo Shard", image: "echoshard.webp" },
+          { name: "Sculk", image: "sculk.gif" },
+          { name: "Echo Shard", image: "echoshard.webp" }
+        ],
+        [
+          { name: "End Stone", image: "endstone.webp" },
+          { name: "End Stone", image: "endstone.webp" },
+          { name: "End Stone", image: "endstone.webp" }
+        ]
+      ]}
+    />
+  </div>
+
+  <div className="crafting-column">
+    <div className="crafting-label">Sculk Shrieker</div>
+    <CraftingGrid
+      recipe={[
+        [null, null, null],
+        [
+          { name: "End Stone", image: "endstone.webp" },
+          { name: "Sculk Sensor", image: "sculksensor.webp" },
+          { name: "End Stone", image: "endstone.webp" }
+        ],
+        [
+          { name: "Sculk", image: "sculk.gif" },
+          { name: "Sculk", image: "sculk.gif" },
+          { name: "Sculk", image: "sculk.gif" }
+        ]
+      ]}
+    />
+  </div>
+</div>

@@ -750,3 +750,50 @@ table td {
   text-align: left !important;
   vertical-align: top !important;
 }
+
+.crafting-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 64px);
+  grid-template-rows: repeat(3, 64px);
+  gap: 4px;
+  position: relative;
+}
+
+.crafting-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.crafting-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crafting-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.slot {
+  width: 64px;
+  height: 64px;
+  background-color: #8B8B8B;
+  border: 2px solid #373737;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 2px 2px rgba(255,255,255,0.25), 
+              inset -2px -2px rgba(0,0,0,0.25);
+  position: relative;
+}
+
+.slot img {
+  width: 48px;
+  height: 48px;
+}

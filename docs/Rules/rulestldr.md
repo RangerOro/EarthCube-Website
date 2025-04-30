@@ -1,6 +1,6 @@
 ---
 title: Rules - TL;DR
-scrollbar_position: 1
+scrollbar_position: 11
 slug: /rulestldr
 ---
 
