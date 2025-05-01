@@ -14,6 +14,8 @@ Welcome to EarthCube! This guide will help you get started on our server and und
 - **Connect to the server**  
   Use the server address: `play.earthcubemc.net`
   For Bedrock Edition, use the same address with port: `19132`
+  
+  The recommended version is **1.21.4** but you can connect with other versions too.
 
 - **Spawn in the world**  
   You'll spawn in the spawn area. There you'll find some information, scoreboards and the AdminShop.

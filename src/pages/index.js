@@ -341,7 +341,7 @@ export default function EarthCubeMinecraftServer() {
             <div className={styles.step}>
               <div className={styles.stepIcon}>1</div>
               <h3 className={styles.accentH3}>Get Minecraft</h3>
-              <p>You'll need the Java/Bedrock Edition of Minecraft (version 1.21.4) to join our server.</p>
+              <p>You'll need the Java/Bedrock Edition of Minecraft (version 1.21.4 recommended) to join our server.</p>
             </div>
             
             <div className={styles.step}>
