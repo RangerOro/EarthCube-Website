@@ -479,7 +479,7 @@ export default function EarthCubeMinecraftServer() {
               <img src="/img/EarthCube logo-favicon.png" alt="EarthCube" />
               <div className={styles.footerLogoText}>
                 <h3 className={styles.accentH3}>EarthCube</h3>
-                <p>A Unique Towny</p>
+                <p>One Unique Towny</p>
               </div>
             </div>
             
