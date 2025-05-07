@@ -485,12 +485,12 @@ export default function EarthCubeMinecraftServer() {
             
             <div className={styles.footerLinks}>
               <div className={styles.footerLinksColumn}>
-                <h3 className={styles.accentH3}>Navigation</h3>
+                <h3 className={styles.accentH3}>Guides</h3>
                 <ul>
-                  <li><Link to="#features">Features</Link></li>
-                  <li><Link to="#about">About</Link></li>
-                  <li><Link to="#join">Join Now</Link></li>
-                  <li><Link to="#community">Community</Link></li>
+                  <li><Link to="/docs/towns">Towny</Link></li>
+                  <li><Link to="/docs/economy">Economy</Link></li>
+                  <li><Link to="/docs/join">Joining</Link></li>
+                  <li><Link to="/docs/planets">Planets</Link></li>
                 </ul>
               </div>
               
