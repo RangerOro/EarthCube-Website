@@ -232,7 +232,7 @@ hr {
 /* Sidebar */
 .menu {
   padding: 1rem;
-  background-color: var(--color-bg-lighter);
+  background: linear-gradient(to bottom, var(--color-bg-lighter), var(--color-bg-dark));
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
 }

@@ -442,6 +442,13 @@ section {
   gap: 2rem;
 }
 
+/* Set 2 columns specifically for tablet devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .features .featuresGrid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
 .featureCard {
   background-color: var(--color-card-bg);
   border-radius: var(--border-radius);
@@ -637,6 +644,16 @@ section {
 .serverInfoLabel {
   font-weight: 600;
   color: var(--color-text-secondary);
+}
+
+.serverInfoDocument {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  gap: 0.5rem;
+  width: 100%;
 }
 
 .serverInfoValue {
@@ -949,6 +966,36 @@ section {
   border-top: 1px solid var(--color-border);
   font-size: 0.9rem;
   opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footerLogo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerLogo img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .footerLinksColumn {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* Responsive Styles */

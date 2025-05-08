@@ -329,107 +329,113 @@ export default function EarthCubeMinecraftServer() {
       </section>
 
       {/* Join Server Section */}
-      <section className={styles.join} id="join">
-        <div className={styles.container}>
-          <SectionTitle>How to Join EarthCube</SectionTitle>
+        <section className={styles.join} id="join">
+          <div className={styles.container}>
+            <SectionTitle>How to Join EarthCube</SectionTitle>
+            
+            <p className={styles.sectionIntro}>
+          Follow these simple steps to begin your adventure
+            </p>
+            
+            <div className={styles.joinSteps}>
+          <div className={styles.step}>
+            <div className={styles.stepIcon}>1</div>
+            <h3 className={styles.accentH3}>Get Minecraft</h3>
+            <p>You'll need the Java/Bedrock Edition of Minecraft (version 1.21.4 recommended) to join our server.</p>
+          </div>
           
-          <p className={styles.sectionIntro}>
-            Follow these simple steps to begin your adventure
-          </p>
-          
-          <div className={styles.joinSteps}>
-            <div className={styles.step}>
-              <div className={styles.stepIcon}>1</div>
-              <h3 className={styles.accentH3}>Get Minecraft</h3>
-              <p>You'll need the Java/Bedrock Edition of Minecraft (version 1.21.4 recommended) to join our server.</p>
+          <div className={styles.step}>
+            <div className={styles.stepIcon}>2</div>
+            <h3 className={styles.accentH3}>Add Our Server</h3>
+            <p>Launch Minecraft, click on "Multiplayer," then "Add Server," and enter our server address.</p>
+          </div>
+
+          <div className={styles.step}>
+            <div className={styles.stepIcon}>3</div>
+            <h3 className={styles.accentH3}>Start Playing</h3>
+            <p>Join the server, read the starter guide, and begin your journey on EarthCube!</p>
+          </div>
+            </div>
+
+            <div className={styles.serverInfo}>
+          <div className={styles.serverInfoCard}>
+            <div className={styles.serverInfoHeader}>
+              <h4>Server Information</h4>
+              <div className={styles.serverStatus}>
+            {isLoading ? (
+              <span className={styles.statusLoading}>Checking status...</span>
+            ) : isOnline ? (
+              <span className={styles.statusOnline}>
+                <span className={styles.statusDot}></span> Online
+              </span>
+            ) : (
+              <span className={styles.statusOffline}>
+                <span className={styles.statusDot}></span> Offline
+              </span>
+            )}
+            {lastChecked && (
+              <span className={styles.statusTimestamp}>
+                Last checked: {lastChecked.toLocaleTimeString()}
+              </span>
+            )}
+            <button 
+              className={styles.refreshButton}
+              onClick={checkServerStatus}
+              disabled={isLoading}
+              aria-label="Refresh server status"
+            >
+              <svg viewBox="0 0 24 24" className={`${styles.refreshIcon} ${isLoading ? styles.spinning : ''}`}>
+                <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z" />
+              </svg>
+            </button>
+              </div>
             </div>
             
-            <div className={styles.step}>
-              <div className={styles.stepIcon}>2</div>
-              <h3 className={styles.accentH3}>Add Our Server</h3>
-              <p>Launch Minecraft, click on "Multiplayer," then "Add Server," and enter our server address.</p>
+            <div className={styles.serverInfoItem}>
+              <div className={styles.serverInfoLabel}>Address:</div>
+              <div className={styles.serverInfoValue}>
+            <code>play.earthcubemc.net</code>
+            <button 
+              className={styles.copyButton}
+              onClick={() => copyToClipboard("play.earthcubemc.net")}
+              aria-label="Copy server address"
+            >
+              <svg viewBox="0 0 16 16" className={styles.copyIcon}>
+                <path d="M4 1H12V12H4V1Z" />
+                <path d="M1 4H3V15H11V16H1V4Z" />
+              </svg>
+            </button>
+              </div>
+            </div>
+            
+            <div className={styles.serverInfoItem}>
+              <div className={styles.serverInfoLabel}>Bedrock Port:</div>
+              <div className={styles.serverInfoValue}>
+            <code>19132</code>
+            <button 
+              className={styles.copyButton}
+              onClick={() => copyToClipboard("19132")}
+              aria-label="Copy port number"
+            >
+              <svg viewBox="0 0 16 16" className={styles.copyIcon}>
+                <path d="M4 1H12V12H4V1Z" />
+                <path d="M1 4H3V15H11V16H1V4Z" />
+              </svg>
+            </button>
+              </div>
             </div>
 
-            <div className={styles.step}>
-              <div className={styles.stepIcon}>3</div>
-              <h3 className={styles.accentH3}>Start Playing</h3>
-              <p>Join the server, read the starter guide, and begin your journey on EarthCube!</p>
+            <div className={styles.serverInfoItem}>
+              <Link to="/docs/join" className={styles.serverInfoDocument}>
+            Detailed Documentation on How to Join
+              </Link>
             </div>
           </div>
-
-          <div className={styles.serverInfo}>
-            <div className={styles.serverInfoCard}>
-              <div className={styles.serverInfoHeader}>
-                <h4>Server Information</h4>
-                <div className={styles.serverStatus}>
-                  {isLoading ? (
-                    <span className={styles.statusLoading}>Checking status...</span>
-                  ) : isOnline ? (
-                    <span className={styles.statusOnline}>
-                      <span className={styles.statusDot}></span> Online
-                    </span>
-                  ) : (
-                    <span className={styles.statusOffline}>
-                      <span className={styles.statusDot}></span> Offline
-                    </span>
-                  )}
-                  {lastChecked && (
-                    <span className={styles.statusTimestamp}>
-                      Last checked: {lastChecked.toLocaleTimeString()}
-                    </span>
-                  )}
-                  <button 
-                    className={styles.refreshButton}
-                    onClick={checkServerStatus}
-                    disabled={isLoading}
-                    aria-label="Refresh server status"
-                  >
-                    <svg viewBox="0 0 24 24" className={`${styles.refreshIcon} ${isLoading ? styles.spinning : ''}`}>
-                      <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-              
-              <div className={styles.serverInfoItem}>
-                <div className={styles.serverInfoLabel}>Address:</div>
-                <div className={styles.serverInfoValue}>
-                  <code>play.earthcubemc.net</code>
-                  <button 
-                    className={styles.copyButton}
-                    onClick={() => copyToClipboard("play.earthcubemc.net")}
-                    aria-label="Copy server address"
-                  >
-                    <svg viewBox="0 0 16 16" className={styles.copyIcon}>
-                      <path d="M4 1H12V12H4V1Z" />
-                      <path d="M1 4H3V15H11V16H1V4Z" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-              
-              <div className={styles.serverInfoItem}>
-                <div className={styles.serverInfoLabel}>Bedrock Port:</div>
-                <div className={styles.serverInfoValue}>
-                  <code>19132</code>
-                  <button 
-                    className={styles.copyButton}
-                    onClick={() => copyToClipboard("19132")}
-                    aria-label="Copy port number"
-                  >
-                    <svg viewBox="0 0 16 16" className={styles.copyIcon}>
-                      <path d="M4 1H12V12H4V1Z" />
-                      <path d="M1 4H3V15H11V16H1V4Z" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
-        </div>
-      </section>
-      
-      {/* Community Section */}
+        </section>
+        
+        {/* Community Section */}
       <section className={styles.community} id="community">
         <div className={styles.container}>
           <div className={styles.communityContent}>
