@@ -75,7 +75,8 @@ const config = {
             position: 'left',
             items: [
               { label: 'Discord', href: 'https://discord.earthcubemc.net' },
-              { label: 'YouTube', href: 'https://www.youtube.com/@EarthCubeMC'}
+              { label: 'YouTube', href: 'https://www.youtube.com/@EarthCubeMC'},
+              { label: 'TikTok', href: 'https://www.tiktok.com/@earthcubemcserver' }
             ],
           },
           { to: '/docs', label: 'Docs', position: 'left' },
