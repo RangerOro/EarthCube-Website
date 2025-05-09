@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 // Component for animated gradient text
@@ -206,9 +207,10 @@ export default function EarthCubeMinecraftServer() {
     return () => cancelAnimationFrame(animationFrame);
   }, [mousePosition]);
   return (
-    <Layout
-      className={styles.darkTheme}
-    >
+    <SpeedInsights>
+      <Layout
+        className={styles.darkTheme}
+      >
 
       {/* Hero Section */}
       <header className={styles.hero}>
@@ -535,5 +537,6 @@ export default function EarthCubeMinecraftServer() {
         </div>
       </footer>
     </Layout>
+    </SpeedInsights>
   );
 }
