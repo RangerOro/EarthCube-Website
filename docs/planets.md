@@ -23,7 +23,7 @@ A prerequisite is to have 10.000 gold in your personal bank account, as they wil
 You can also teleport in group with some friends! With one rocket only, you can use it in the same chunk with up to 3 people and the others will get prompted to run the command `/pl accept` in chat to teleport with you to the planet. You have 20 seconds to run the command, or else the request will expire.
 
 :::tip
-If you're stuck on a planet, you can either call a friend to help you (using the group teleport feature) or buying another Space Rocket with `/rocket`. This last option only works if you have 10.000 gold in your bank account! Staff won't help you if you find yourself in this situation.
+If you're stuck on a planet, you can either call a friend to help you (using the group teleport feature) or buy another Space Rocket with `/rocket`. This last option only works if you have 10.000 gold in your bank account! Staff won't help you if you find yourself in this situation.
 :::
 
 ### The Worlds
