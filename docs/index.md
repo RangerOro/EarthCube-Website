@@ -19,7 +19,7 @@ Welcome to EarthCube! This guide will help you get started on our server and und
   The recommended version is **1.21.4** but you can connect with other versions too.
 
 - **Spawn in the world**  
-  You'll spawn in the spawn area. There you'll find some information, scoreboards and the AdminShop.
+  You'll spawn in the spawn area. There you'll find some information, scoreboards and the AdminShop at `/warp adminshop`.
 
 - **Use the world map**  
   Type `/map` to access our [interactive web map](/docs/map), which shows towns, nations, and your current position in the Earth.
