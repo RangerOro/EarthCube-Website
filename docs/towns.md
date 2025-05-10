@@ -31,7 +31,7 @@ It would make sense giving at least one plot for free to your residents, because
 Make it easier for your residents to buy more plots. And if you have no space left in your town, consider expanding.
 :::
 
-When the chunk is claimed, the town mayor can manage the plot, or give it to a resident. Residents can buy their own plot (if for sale) with `/plot claim`, though, they **can't** actually claim chunks to their town.
+When the chunk is claimed, the town mayor can manage the plot, or give it to a resident. Mayors may set their town's plots for sale with `/plot fs <price>`. Residents can buy their own plot (if for sale) with `/plot claim`, though, they **can't** actually claim chunks to their town.
 
 Also, if you ever find the plot too big, or want your residents to buy more plots in one go, you could create a [Quarter](/docs/quarters).
 
