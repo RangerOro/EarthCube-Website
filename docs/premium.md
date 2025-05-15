@@ -11,6 +11,7 @@ Premium role is a special and paid role that grants exclusive perks in the serve
 - Permission to execute the `/anvil` command, which will make you use the anvil.
 - Permission to execute the `/cartography` command, which will make you use the cartography table
 - Permission to execute the `/grindstone` command, which will make you use the grindstone
+- Permission to create [ImageFrames](/docs/Misc/imageframe.md).
 - Ability to put everything you want on your head with /hat
 - Permission to change your nickname with the /nick command
 - Access to the Premium chat channel

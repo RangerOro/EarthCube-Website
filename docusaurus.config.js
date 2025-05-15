@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'EarthCube',
-  tagline: 'A Unique Towny',
+  tagline: 'One Unique Towny',
   favicon: 'img/EarthCube logo-favicon.png',
 
   // Set the production url of your site here
