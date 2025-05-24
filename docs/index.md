@@ -25,8 +25,7 @@ Welcome to EarthCube! This guide will help you get started on our server and und
   Type `/map` to access our [interactive web map](/docs/map), which shows towns, nations, and your current position in the Earth.
 
 - **Travel to a location**  
-  Use `/warp [continent]` to teleport to a continent your choice. For example, `/warp Europe` will teleport you to Europe.  
-  You could also run `/earth` to teleport in a random location in the Earth.
+  Use `/warp [continent]` to teleport to a continent your choice. For example, `/warp Europe` will teleport you to Europe.
 
 - **Join a town or create your own**  
   You can join an existing town (use `/t list` to see a list) or create your own with `/town create [name]` (costs 128 gold).  
