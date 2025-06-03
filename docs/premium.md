@@ -42,7 +42,7 @@ The Premium rank is a special and paid rank that grants exclusive perks in the s
 | /nick [name] or /nick off | Set your nickname or clear it    |
 | /hat                      | Use a held item as an hat        |
 | /badge                    | View all available badges        |
-| /badge {name}             | Set on/off a badge               |
+| /badge <name>             | Set on/off a badge               |
 | /ec                       | Open the ender chest             |
 | /seen [player]            | See when someone was last online |
 | /discord link             | Perks on EarthCube discord       |
