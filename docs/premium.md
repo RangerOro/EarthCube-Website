@@ -30,6 +30,7 @@ The Premium rank is a special and paid rank that grants exclusive perks in the s
 - Ability to have 3 badges at the same time. You can view available badges with `/badge`
 - Double the space in the ender chest
 - You will have the 50% of possibility of getting 2 vote crates instead of 1 when voting
+- You will be able to create 10 auctions at the same time
 
 #### Upcoming
 
