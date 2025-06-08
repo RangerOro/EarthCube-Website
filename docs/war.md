@@ -3,9 +3,9 @@ title: Wars
 sidebar_position: 7
 ---
 
-We feature **Event War**, a war plug-in that makes you able to fight officially with your teammates against someone else's town, nation or even the town you're in. This war system features many different war types, all of them unlockable with the **War Tokens**. You will receive one of these every day if your town is at least 5 days old.
+We feature **Event War**, a war plug-in that makes you able to fight officially with your teammates against someone else's town, nation or even the town you're in. This war system features many different war types, all of them unlockable with the **War Tokens**. You will receive one of these every day if your town is at least 3 days old.
 
-In fact, when you create a town, you have **5 days of immunity** from wars, but you won't receive any war token. You also won't receive tokens when already in war.
+In fact, when you create a town, you have **3 days of immunity** from wars, but you won't receive any war token. You also won't receive tokens when already in war.
 
 With war tokens, you will be able to buy a **Declaration of War** book, used to declare war. Those can only be used by their creators and cannot be sold.
 
@@ -14,12 +14,12 @@ You can run `/eventwar guide` which will tell you how our server has configured 
 There are few types of wars availabe as now:
 | **War Name**     | **Token Cost** | **Description**                                          | **Min. Online** | **Max. Duration** | **War Cooldown** |
 |------------------|----------------|----------------------------------------------------------|-----------------|-------------------|------------------|
-| Riot War         | 4 Tokens       | A town fights against itself                             | 4 players       | 12 hours          | 1 day            |
-| Town vs Town     | 7 Tokens       | A town fights against another town                       | 4 players       | 3 days            | 5 days           |
-| Independence War | 10 Tokens      | Conquered town fights against its own nation for freedom | 8 players       | 5 days            | 5 days           |
-| Civil War        | 10 Tokens      | A nation fights against itself                           | 8 players       | 5 days            | 5 days           |
-| Nation vs Town   | 12 Tokens      | A nation fights against a town                           | 6 players       | 5 days            | 5 days           |
-| Nation vs Nation | 14 Tokens      | A nation fights against another nation                   | 10 players      | 7 days            | 7 days           |
+| Riot War         | 2 Tokens       | A town fights against itself                             | 4 players       | 12 hours          | 1 day            |
+| Town vs Town     | 4 Tokens       | A town fights against another town                       | 4 players       | 3 days            | 5 days           |
+| Independence War | 5 Tokens       | Conquered town fights against its own nation for freedom | 8 players       | 5 days            | 5 days           |
+| Civil War        | 6 Tokens       | A nation fights against itself                           | 8 players       | 5 days            | 5 days           |
+| Nation vs Town   | 8 Tokens       | A nation fights against a town                           | 6 players       | 5 days            | 5 days           |
+| Nation vs Nation | 10 Tokens      | A nation fights against another nation                   | 10 players      | 7 days            | 7 days           |
 
 There is also Alliance vs Alliance and World War war types, those will be probably added in the future, or for a special occasion.
 
