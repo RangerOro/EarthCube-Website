@@ -37,29 +37,33 @@ const config = {
   },
 
   presets: [
-    [
-      'classic',
-      ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: '/docs',
+  [
+    'classic',
+    ({
+      docs: {
+        sidebarPath: './sidebars.js',
+        routeBasePath: '/docs',
+      },
+      blog: {
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
-    ],
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+      theme: {
+        customCss: './src/css/custom.css',
+      },
+      sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
+    }),
   ],
+],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -104,15 +108,6 @@ const config = {
         { name: 'twitter:card', content: 'summary_large_image' }
       ],
     }),
-    plugins: [
-  [
-    '@docusaurus/plugin-sitemap',
-    {
-      changefreq: 'weekly',
-      priority: 0.5,
-    },
-  ],
-],
 };
 
 export default config;
