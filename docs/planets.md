@@ -1,6 +1,8 @@
 ---
 title: Planets
 sidebar_position: 8
+description: EarthCube is the first server of its kind to feature new planetary worlds other than the Earth! From V3, the server has 2 new worlds, the Moon and Mars.
+keywords: [earthcube, earthcubemc, earth server planets, minecraft server planets, minecraft planets, earthcube planets, earthmc planets]
 ---
 
 ![Mars](./img/mars-structure.png)

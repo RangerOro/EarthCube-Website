@@ -1,6 +1,8 @@
 ---
 title: Premium Rank
 sidebar_position: 9
+description: The Premium rank is a special and paid rank that grants exclusive perks in the server.
+keywords: [earthcube, earthcubemc, earthcube premium, earthcube rank]
 ---
 [Click here](https://store.earthcubemc.net/category/ranks) to buy.
 

@@ -1,6 +1,8 @@
 ---
 title: Interactive Map
 sidebar_position: 2
+description: After you enter the server and teleport to a continent, you may want to see your specifical position in the world. You can do that!
+keywords: [earthcube, earthcubemc, earthcube map, earthcube dynmap, earthcube interactive map]
 ---
 
 ![Map](./img/dynmap-america.png)

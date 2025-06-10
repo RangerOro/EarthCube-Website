@@ -1,6 +1,8 @@
 ---
 title: How to Join
 sidebar_position: 2
+description: The IP is play.earthcubemc.net and the port is 19132 if you're on Bedrock.
+keywords: [earthcube, earthcubemc, earthcube join, how to join earthcube]
 ---
 
 ![Spawn](./img/spawn.png)

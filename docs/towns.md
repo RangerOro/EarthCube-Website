@@ -1,6 +1,8 @@
 ---
 title: Towns
 sidebar_position: 4
+description: Towns are player-created settlements that allow you to claim land, invite residents, and establish a community.
+keywords: [earthcube, earthcubemc, earthcube town, earthcube towns, earthcube factions, earthcube city, earthcube how to create a town, earthcube towny]
 ---
 
 Towns are player-created settlements that allow you to claim land, invite residents, and establish a community. Here's how to get started:

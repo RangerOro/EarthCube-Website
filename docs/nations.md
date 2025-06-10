@@ -1,6 +1,8 @@
 ---
 title: Nations
 sidebar_position: 6
+description: Nations are alliances of towns that provide diplomatic, economic, and military benefits to their member towns.
+keywords: [earthcube, earthcubemc, earthcube nations, earthcube nation, earthcube towny]
 ---
 
 Nations are alliances of towns that provide diplomatic, economic, and military benefits to their member towns.

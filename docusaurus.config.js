@@ -104,6 +104,16 @@ const config = {
         { name: 'twitter:card', content: 'summary_large_image' }
       ],
     }),
+    plugins: [
+  [
+    '@docusaurus/plugin-sitemap',
+    {
+      changefreq: 'weekly',
+      priority: 0.5,
+      sitemapFilename: 'sitemap.xml',
+    },
+  ],
+],
 };
 
 export default config;

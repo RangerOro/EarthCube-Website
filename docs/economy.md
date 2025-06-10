@@ -1,6 +1,8 @@
 ---
 title: Economy
 sidebar_position: 3
+description: The only currency on EarthCube is gold ingots, 1 gold ingot is 1 unit of currency. The economy is totally player-driven. There are no town or nation taxes.
+keywords: [earthcube, earthcubemc, earthcube economy, earthcube gold]
 ---
 
 The only currency on EarthCube is gold ingots, 1 gold ingot is 1 unit of currency. The economy is totally player-driven. There are no town or nation taxes.

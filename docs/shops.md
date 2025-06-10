@@ -1,6 +1,8 @@
 ---
 title: Shops
 sidebar_position: 7
+description: Shops are very important in the server's economy as they permit players to exchange their items for gold and vice-versa.
+keywords: [earthcube, earthcubemc, earthcube shop, earthcube how to create shop]
 ---
 
 Shops are very important in the server's economy as they permit players to exchange their items for gold and vice-versa. Shops are entirely run by players, except for the AdminShop in the spawn area.

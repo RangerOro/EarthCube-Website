@@ -2,6 +2,7 @@
 title: Welcome
 sidebar_position: 1
 description: Welcome to EarthCube! This guide will help you get started on our server and understand the basics of playing on our 1:750 scale Earth map.
+keywords: [earthcube, earthcubemc, earthcube guide, earthcube docs, earthcube documentation]
 ---
 
 # Getting Started

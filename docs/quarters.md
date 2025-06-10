@@ -1,6 +1,8 @@
 ---
 title: Quarters
 sidebar_position: 5
+description: Quarters extend the functionality of towns and plots, allowing for the creation of customizable spaces such as apartments.
+keywords: [earthcube, earthcubemc, earthcube quarters, earthcube plots, earthcube quarter]
 ---
 
 Quarters extend the functionality of towns and plots, allowing for the creation of customizable spaces such as apartments. Unlike [standard plots](/docs/towns#plots) that are restricted to a grid-based system, Quarters enable dynamically sized cuboids with editable permissions.

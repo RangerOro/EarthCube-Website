@@ -1,6 +1,8 @@
 ---
 title: Wars
 sidebar_position: 7
+description: The war system is currently cancelled.
+keywords: [earthcube, earthcubemc, earthcube war, earthcube pvp, earthcube siege]
 ---
 
 :::note
