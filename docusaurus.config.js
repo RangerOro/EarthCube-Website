@@ -101,6 +101,7 @@ const config = {
       },
       metadata: [
         { name: 'description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
+        { name: 'keywords', content: 'Minecraft, Towny, Earth, Server, Politics, Economy, Planets, Minecraft Server, Minecraft Towny, Minecraft Economy, Minecraft Earth' },
         { property: 'og:title', content: 'EarthCubeMC - Minecraft Earth Server' },
         { property: 'og:description', content: 'Explore a 1:750 scale version of the real world, build your own town, and engage in politics and warfare!' },
         { property: 'og:image', content: 'https://test-website-earthcube-git-main-rangeroros-projects.vercel.app/img/europemap.png' },
