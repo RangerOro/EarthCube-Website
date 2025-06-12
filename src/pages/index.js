@@ -282,7 +282,7 @@ export default function EarthCubeMinecraftServer() {
             
             <FeatureCard 
               image="/img/war.webp"
-              title="EventWar"
+              title="SiegeWar"
               description="Test your might in large-scale battles. Lead a revolt, conquer other towns - or even entire nations!"
             />
             
